@@ -28,7 +28,7 @@
     "test": "npm run unit",
     "watch": "tsc -w",
     "prepublishOnly": "npm run build",
-    "prepare": "npm run build"
+    "postinstall": "npm run build"
   },
   "scripts-info": {
     "build": "(Trash and re)build the library",
